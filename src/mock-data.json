@@ -1,0 +1,129 @@
+{
+    "cases": [
+        {
+            "_id": "1",
+            "status": "new",
+            "licenseNumber": "DRF-4767337",
+            "type": "general",
+            "ownerFullName": "Иванов Иван Иванович",
+            "clientId": "12345",
+            "createAt": "2021-08-29T18:39:45",
+            "updateAt": "2021-08-29T18:39:45",
+            "color": "красный",
+            "date": "2021-08-29T18:39:45",
+            "officer": "",
+            "description": "",
+            "resolution": ""
+        },
+        {
+            "_id": "2",
+            "status": "new",
+            "licenseNumber": "hgjkhlee337",
+            "type": "sport",
+            "ownerFullName": "Сидоров Петр Иванович",
+            "clientId": "12345",
+            "createAt": "2021-08-29T18:39:45",
+            "updateAt": "2021-08-29T18:39:45",
+            "color": "красный",
+            "date": "2021-08-29T18:39:45",
+            "officer": "",
+            "description": "",
+            "resolution": ""
+        },
+        {
+            "_id": "3",
+            "status": "in_progress",
+            "licenseNumber": "DRF-4767337",
+            "type": "general",
+            "ownerFullName": "Иванов Иван Иванович",
+            "clientId": "12345",
+            "createAt": "2021-08-29T18:39:45",
+            "updateAt": "2021-08-29T18:39:45",
+            "color": "зеленый",
+            "date": "2021-08-29T18:39:45",
+            "officer": "",
+            "description": "",
+            "resolution": ""
+        },
+        {
+            "_id": "4",
+            "status": "done",
+            "licenseNumber": "DRF-4767337",
+            "type": "general",
+            "ownerFullName": "Иванов Иван Иванович",
+            "clientId": "12345",
+            "createAt": "2021-08-29T18:39:45",
+            "updateAt": "2021-08-29T18:39:45",
+            "color": "красный",
+            "date": "2021-08-29T18:39:45",
+            "officer": "",
+            "description": "",
+            "resolution": "fkjlgsfjglkfj"
+        },
+        {
+            "_id": "5",
+            "status": "new",
+            "licenseNumber": "DRF-4767337",
+            "type": "general",
+            "ownerFullName": "Иванов Иван Иванович",
+            "clientId": "12345",
+            "createAt": "2021-08-29T18:39:45",
+            "updateAt": "2021-08-29T18:39:45",
+            "color": "красный",
+            "date": "2021-08-29T18:39:45",
+            "officer": "",
+            "description": "",
+            "resolution": ""
+        }
+    ],
+"officers": [
+        {
+            "_id": "1",
+            "email": "aaa@ggg.ru",
+            "firstName": "Павел",
+            "lastName": "Мотыгин",
+            "clientId": "12345",
+            "approved": true
+        },
+        {
+            "_id": "2",
+            "email": "bcbcbcbc@gggddd.ru",
+            "firstName": "Александра",
+            "lastName": "Фролова",
+            "clientId": "12345",
+            "approved": false
+        },
+        {
+            "_id": "3",
+            "email": "avavav@gggrrrr.ru",
+            "firstName": "Юлия",
+            "lastName": "Кравченко",
+            "clientId": "12345",
+            "approved": true
+        },
+        {
+            "_id": "4",
+            "email": "lklklkl@hghghgh.ru",
+            "firstName": "Иван",
+            "lastName": "Иванов",
+            "clientId": "12345",
+            "approved": true
+        },
+        {
+            "_id": "5",
+            "email": "qwqwqw@eeeeeee.ru",
+            "firstName": "Людмила",
+            "lastName": "Чупрова",
+            "clientId": "12345",
+            "approved": false
+        },
+        {
+            "_id": "6",
+            "email": "nmnmnmn@nbmbnmnbm.ru",
+            "firstName": "Анастасия",
+            "lastName": "Рочева",
+            "clientId": "12345",
+            "approved": false
+        }
+    ]
+}

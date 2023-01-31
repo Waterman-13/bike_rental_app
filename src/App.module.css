@@ -1,0 +1,15 @@
+.app {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  background-color: #90ece8;
+  height: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

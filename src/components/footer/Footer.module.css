@@ -1,0 +1,40 @@
+.footer {
+    height: 55px;
+    padding: 0 3%;
+    background-color: rgb(55, 55, 55);
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer a {
+    /*margin: 0 10px;*/
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(150, 150, 150);
+}
+
+.footer a:hover {
+    color: rgb(200, 200, 200);
+}
+
+@media (max-width: 735px) {
+    .icon { display: none; }
+
+    .content {
+      flex-direction: column;
+      justify-content: center;
+    }
+}
+  

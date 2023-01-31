@@ -1,0 +1,15 @@
+.content {
+    height: 90vh;
+    margin: 20px;
+    background-image: url("cyclists.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content a { color: gray; }

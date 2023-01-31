@@ -1,0 +1,136 @@
+.container {
+    position: relative;
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close { cursor: pointer; }
+
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 0 5px;
+    border-bottom: 1px solid #000;
+    background-color: white;
+    text-align: center;
+    font-size: 0.9em;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 80%;
+    max-width: 700px;
+    margin-right: 10px;
+    padding: 5px 5px;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.status {
+    width: 10%;
+    min-width: 80px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.license {
+    width: 10%;
+    min-width: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.type {
+    width: 10%;
+    min-width: 60px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.name {
+    width: 10%;
+    min-width: 200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.color {
+    width: 10%;
+    min-width: 80px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.date {
+    width: 10%;
+    min-width: 75px;
+    margin-bottom: 10px;
+}
+
+.icons {
+    min-width: 60px;
+}
+
+.emptyList {
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .title h1 { font-size: x-large; }
+
+    .header {
+        padding: 0;
+        border-bottom: 1px solid #000;
+        background-color: white;
+        text-align: left;
+        font-size: 0.7em;
+    }
+    
+    .content {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .status {
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .license {
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .type {
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .name {
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .color {
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .date {
+        width: 100%;
+        margin: 0px;
+    }
+}
