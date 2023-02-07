@@ -1,0 +1,135 @@
+.item {
+    width: 100%;
+    padding: 5px 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.item_odd {
+    background-color: rgb(240, 240, 240);
+}
+
+.content {
+    width: 80%;
+    max-width: 700px;
+    margin-right: 10px;
+    padding: 5px 5px;
+    font-size: .9em;
+    display: flex;
+    align-items: center;
+}
+
+.status {
+    width: 10%;
+    min-width: 80px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.status_new {
+    padding: 5px;
+    background-color: green;
+    color: white;
+    text-transform: uppercase;
+}
+
+.license {
+    width: 10%;
+    min-width: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    overflow-x:hidden;
+    white-space: nowrap;
+}
+
+.type {
+    width: 10%;
+    min-width: 60px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.name {
+    width: 10%;
+    min-width: 200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    overflow-x:hidden;
+    white-space: nowrap;
+}
+
+.color {
+    width: 10%;
+    min-width: 80px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    overflow-x:hidden;
+    white-space: nowrap;
+}
+
+.date {
+    width: 10%;
+    min-width: 75px;
+    margin-bottom: 10px;
+}
+
+.done {
+    color: rgb(140, 140, 140);
+}
+
+.icons {
+    min-width: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.icon img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 900px) {
+    .content {
+        font-size: 0.9em;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .status {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    
+    .license {
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .type {
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .name {
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .color {
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .date {
+        width: 100%;
+        margin: 0px;
+    }
+}

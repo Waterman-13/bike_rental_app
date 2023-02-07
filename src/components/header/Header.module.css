@@ -1,0 +1,62 @@
+.header {
+    height: 60px;
+    padding: 0 3%;
+    background-color: rgb(55, 55, 55);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nameCompany {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    width: 55px;
+    height: 55px;
+    margin-right: 20px;
+    background-color: rgb(55, 55, 55);
+}
+
+.name {
+    font-size: 40px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.btnLogin {
+    width: 60px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: rgb(200, 200, 200);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btnLogin:hover {
+    background-color: white;
+}
+
+@media (max-width: 735px) {
+  .name { font-size: 20px; }
+
+  .user { font-size: 12px; }
+
+  .logo { display: none; }
+
+  .btnLogin { 
+        width: 55px;
+        height: 25px;
+        font-size: 11px; 
+    }
+}

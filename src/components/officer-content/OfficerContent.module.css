@@ -1,0 +1,80 @@
+.container {
+    position: relative;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h1 { margin-bottom: 10px; }
+
+.close { cursor: pointer; }
+
+.input { margin-bottom: 5px; }
+
+.input p { 
+    margin: 0;
+    font-size: 0.9em;
+    color: grey; 
+}
+
+.disabled {
+    background-color: #dfdfdf;
+    border-radius: 5px;
+    padding: 8px 13px;
+}
+
+.checkbox {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox input {
+    margin-left: 20px;
+}
+
+.btnSend {
+    width: 100%;
+    margin-top: 20px;
+    padding: 8px 13px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    background-color: #5790ce;
+    color: #fff;
+    outline: 0;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.btnSend:hover { background-color: #67a8ee; }
+
+.message {
+    font-size: 12px;
+    font-weight: bold;
+    color: #E95140;
+    margin-top: 4px;
+}
+
+.isSaving {
+    width: 100%;
+    margin-top: 20px;
+    padding: 8px 13px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #adaeaf;
+    color: #fff;
+    outline: 0;
+    text-align: center;
+    line-height: 30px;
+}
